@@ -1,0 +1,115 @@
+body {
+
+    background-color: rgb(91,115,126);
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    
+}
+
+form {
+    /* background-color: rgb(154, 189, 242); */
+    /* box-shadow: 0 0 20px #161515 inset; */
+    padding: 12px 12px;
+    margin: 20px;
+    align-items: center;
+}
+
+form > input {
+    width: 150px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size : 14;
+    border :4px;
+    border-radius : 12px;
+    margin-left: 5px; 
+    box-shadow: 0 0 10px #a09696 inset;
+
+    width: 190px;
+    
+    
+    box-sizing: border-box;
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+form > select {
+    width: 90px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #a09696 inset;
+
+
+
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    height: 40px;
+    margin: 0 0 0 25px;
+    padding: 10px;
+    width: 110px;
+}
+
+.button{
+    width: 175px;
+    padding: 12px 20px;
+    margin: 15px 15;
+    box-sizing: border-box;
+    align-items: center;
+    cursor:pointer;
+    top: 50%;
+    left: 50%;
+    margin-left: 15px; 
+}
+
+form > textarea {
+    width: 190px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-left: 5px; 
+    box-shadow: 0 0 10px #a09696 inset;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a {
+    color: rgb(227, 211, 213);
+    text-decoration: none;   
+}
+
+div {
+    background-color: rgb(128,159,173);;
+    box-shadow: 0 0 20px #161515 inset;
+    padding: 12px 12px;
+    margin: 20px;
+    width: 70%;
+    padding: 12px 12px;
+    align-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2 {
+
+    align-self:center;
+
+}

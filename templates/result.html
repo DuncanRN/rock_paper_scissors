@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+        
+
+        {{ game.player_1.name }} played {{ game.player_1.choice }}<br>
+        {{ game.player_2.name }} played {{ game.player_2.choice }}<br>
+        
+        <h2>so {{  winning_message }} </h2>
+
+{% endblock %}
